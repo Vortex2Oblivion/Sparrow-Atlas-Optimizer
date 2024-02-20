@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cpw05j8qogoel"]
+
+[node name="LoadedAtlas" type="Sprite2D"]

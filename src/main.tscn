@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dsunn6vlgvxdk"]
+
+[ext_resource type="Script" path="res://src/main.gd" id="1_2w8fi"]
+[ext_resource type="PackedScene" uid="uid://cpw05j8qogoel" path="res://src/loaded_atlas.tscn" id="1_5iqrw"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_2w8fi")
+
+[node name="LoadedAtlas" parent="." instance=ExtResource("1_5iqrw")]
+
+[node name="AssetsGuide" type="RichTextLabel" parent="."]
+offset_right = 586.0
+offset_bottom = 264.0

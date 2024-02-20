@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbqlxg8xpfb11"]
+
+[ext_resource type="Texture2D" uid="uid://bc3rx8wt7jleg" path="res://assets/BoyFriend_Assets.png" id="1_gu6y1"]
+
+[node name="Boyfriend" type="Sprite2D"]
+texture = ExtResource("1_gu6y1")
+region_enabled = true
+region_rect = Rect2(0, 0, 439, 435)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
